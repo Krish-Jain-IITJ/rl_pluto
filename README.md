@@ -122,7 +122,13 @@ Training follows a staged curriculum designed to prevent policy divergence in de
 ##Result ans Analysis
 1 Value Loss
 <img width="605" height="505" alt="value_loss_obs1" src="https://github.com/user-attachments/assets/11e14efe-7e5d-403f-8dd1-6e9006343bb7" />
-
+.
+├── envs/                 # Unicycle kinematics, obstacle/safety-set models, BLF controller
+├── agents/                # SAC actor-critic implementation
+├── training/              # Online training loop, curriculum scheduler, Optuna tuning scripts
+├── configs/                # Hyperparameters and environment configuration files
+├── results/                # Training curves, trajectory plots, logged metrics
+└── README.md
 
 2 Avg reward single obstacle
 <img width="590" height="507" alt="avg_reward_obs1" src="https://github.com/user-attachments/assets/6eb1f591-964c-4f12-8e83-188fb02ade52" />
