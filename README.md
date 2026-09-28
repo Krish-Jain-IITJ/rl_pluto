@@ -1,6 +1,6 @@
 # Multiple Obstacle Avoidance and Trajectory Tracking via Residual Reinforcement Learning on Arbitrary Control
 
-This repository contains the implementation accompanying the paper **"Multiple Obstacle Avoidance and Trajectory Tracking via Residual Reinforcement Learning on Arbitrary Control"** by Krish Jain, Suhaib Md., and Anoop Jain (IIT Jodhpur).
+This repository contains the implementation accompanying the paper **"Multiple Obstacle Avoidance and Trajectory Tracking via Residual Reinforcement Learning on Arbitrary Control"** by Krish Jain, Suhaib Md., and Anoop Jain (IIT Jodhpur). Paper Link : https://drive.google.com/file/d/1mBWFTVW98iaGzXZGq-V61KAF_keLS_b2/view?usp=sharing
 
 A hybrid control architecture for unicycle robots that combines a classical Barrier Lyapunov Function (BLF) controller with an online Soft Actor-Critic (SAC) reinforcement learning agent, enabling safe and efficient multi-obstacle avoidance while tracking a circular reference trajectory.
 
